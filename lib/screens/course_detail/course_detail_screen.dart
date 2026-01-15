@@ -370,7 +370,7 @@ class _CourseDetailScreenState extends State<CourseDetailScreen> {
       case CourseCategory.mathSciences:
         return Icons.calculate;
       case CourseCategory.artsHumanities:
-        return Icons.palette;
+        return Icons.school;
       case CourseCategory.languages:
         return Icons.language;
     }

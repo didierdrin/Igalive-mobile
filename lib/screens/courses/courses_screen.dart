@@ -254,7 +254,7 @@ class _CoursesScreenState extends State<CoursesScreen>
 
                   // Course Info
                   Expanded(
-                    flex: 2,
+                    flex: 3,
                     child: Padding(
                       padding: const EdgeInsets.all(12),
                       child: Column(
@@ -346,7 +346,7 @@ class _CoursesScreenState extends State<CoursesScreen>
       case CourseCategory.mathSciences:
         return Icons.calculate;
       case CourseCategory.artsHumanities:
-        return Icons.palette;
+        return Icons.school;
       case CourseCategory.languages:
         return Icons.language;
     }

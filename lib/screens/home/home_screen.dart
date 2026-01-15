@@ -178,7 +178,7 @@ class _HomeScreenState extends State<HomeScreen> {
     }
 
     return SizedBox(
-      height: 120,
+      height: 120, 
       child: ListView.builder(
         scrollDirection: Axis.horizontal,
         itemCount: courses.length,
@@ -407,7 +407,7 @@ class _HomeScreenState extends State<HomeScreen> {
       case CourseCategory.mathSciences:
         return Icons.calculate;
       case CourseCategory.artsHumanities:
-        return Icons.palette;
+        return Icons.school;
       case CourseCategory.languages:
         return Icons.language;
     }
